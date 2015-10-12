@@ -46,6 +46,15 @@ h1,h2,h3,h4,h5,h6 {
 .bg-main-content {
   padding-top: 50px;
 }
+.title {
+  font-size: 2.25em;
+  line-height: 1.75em;
+  text-transform: uppercase;
+}
+.subtitle {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
 
 /******************************************
 
@@ -234,6 +243,11 @@ ABOUT PAGE
 
 ********************************************/
 
+#about {
+  background-image: url(../img/blue_lined_background.jpg);
+  background-size: cover;
+  background-position: center top;
+}
 .bg-lead-in {
   padding-top: 2.25em;
 }
@@ -246,4 +260,38 @@ ABOUT PAGE
 .bg-lead-in .subtitle {
   font-size: 1.2em;
   line-height: 1.5em;
+}
+
+
+/******************************************
+
+WORK PAGE
+
+********************************************/
+
+#work {
+  background-image: url(../img/blue_lined_background.jpg);
+  background-size: cover;
+  background-position: center top;
+}
+.bg-portfolio-item-link {
+  height: 175px;
+  display: block;
+  background-image: url(http://placehold.it/1500x175);
+  background-size: cover;
+  background-position: center center;
+  border-bottom: 1px solid #555;
+  -webkit-transition: height .25s ease-in-out;
+  transition: height .25s ease-in-out;
+}
+.bg-portfolio-item-link:hover {
+  height: 250px;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.10);
+  box-shadow: inset 0 0 100px rgba(0,0,0,.10);
+}
+.bg-portfolio-link-content {
+  max-width: 675px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 27.5px 0;
 }
