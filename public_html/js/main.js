@@ -15,5 +15,13 @@ $(document).ready(function(){
     e.preventDefault();
     $('body').removeClass('nav-expanded');
   });
+  
+  //Hide/Show Title of Work Banners
+  $('.bg-portfolio-item-link').on('mouseover', function(e){
+    $(this).children().addClass('fadeOut');
+  });
+  $('.bg-portfolio-item-link').on('mouseout', function(e){
+    $(this).children().removeClass('fadeOut');
+  });
 });
 

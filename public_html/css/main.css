@@ -350,6 +350,16 @@ WORK PAGE
   -webkit-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
   cursor: pointer;
+  position: relative;
+}
+.bg-portfolio-link-content-background {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.35);
+  position: absolute;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
 }
 .bg-portfolio-item-link:hover {
   height: 250px;
@@ -362,6 +372,17 @@ WORK PAGE
   margin: 0 auto;
   text-align: center;
   padding: 27.5px 0;
+  position: relative;
+  z-index: 10;
+  color: #fff;
+  text-shadow: 0 0 10px #333;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+.bg-portfolio-link-content.fadeOut,
+.bg-portfolio-link-content-background.fadeOut {
+  opacity: 0;
 }
 
 /******************************************
