@@ -55,6 +55,11 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 1.2em;
   line-height: 1.5em;
 }
+img {
+  box-shadow: 7px 7px 0 -1px rgba(0,0,0,.1);
+  -webkit-box-shadow: 7px 7px 0 -1px rgba(0,0,0,.1);
+  -moz-box-shadow: 7px 7px 0 -1px rgba(0,0,0,.1);
+}
 
 /******************************************
 
@@ -396,6 +401,16 @@ PROJECT SINGLE PAGES
 }
 .bg-project-site-link {
   font-size: 1.5em;
+}
+.bg-project-navigation {
+  width: 100%;
+  margin: 30px 0 10px;
+}
+.bg-project-navigation .previous {
+  float: left;
+}
+.bg-project-navigation .next {
+  float: right;
 }
 
 /******************************************
