@@ -412,6 +412,9 @@ PROJECT SINGLE PAGES
 .bg-project-navigation .next {
   float: right;
 }
+.bg-additional-project-images {
+  margin-top: 25px;
+}
 
 /******************************************
 
